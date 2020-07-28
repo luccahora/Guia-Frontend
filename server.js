@@ -6,7 +6,7 @@ const server = express();
 
 server.use(express.static('public'));
 
-server.set("view engine", "html");
+server.set("view engine", "njk");
 
 nunjuncks.configure("views", {
     express:server
