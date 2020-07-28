@@ -1,128 +1,114 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia Front-End</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
-</head>
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<body>
+{% endblock %}
 
-    <header>
-        <div class="links">
-            <a href="index.html">Sobre</a>
-            <a href="">Aulas</a>
-        </div>
-    </header>
+{% block content %}
 
-    <div id="wrapper">
-        <h1>Aulas</h1>
-    </div>
+<div id="wrapper">
+    <h1>Aulas</h1>
+</div>
 
-    <section class="cards">
-        <div class="card" id="epDCjksKMok">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
-                    target="_blank"><img src="https://img.youtube.com/vi/epDCjksKMok/maxresdefault.jpg"
-                        alt="Video HTML5"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
-                    target="_blank">HTML5 Completo</a>
-            </div>
-            <div class="card__info">
-                <p>1 hora</p>
-                <p class="card__price">Free</p>
-            </div>
+<section class="cards">
+    <div class="card" id="epDCjksKMok">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
+                target="_blank"><img src="https://img.youtube.com/vi/epDCjksKMok/maxresdefault.jpg"
+                    alt="Video HTML5"></a>
         </div>
-        <div class="card" id="FRhM6sMOTfg&list">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/watch?v=FRhM6sMOTfg&list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG"
-                    target="_blank"><img src="https://andrehost.com.br/wp-content/uploads/2015/02/o-que-e-o-css3.jpg"
-                        alt="Video CSS"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/watch?v=FRhM6sMOTfg&list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG"
-                    target="_blank">CSS3 Completo</a>
-            </div>
-            <div class="card__info">
-                <p>1 hora</p>
-                <p class="card__price">Free</p>
-            </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
+                target="_blank">HTML5 Completo</a>
         </div>
-        <div class="card" id="HN1UjzRSdBk">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/watch?v=HN1UjzRSdBk" target="_blank"><img
-                        src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg" alt="Video CSS"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/watch?v=HN1UjzRSdBk" target="_blank">CSS Grid layout</a>
-            </div>
-            <div class="card__info">
-                <p>36 min</p>
-                <p class="card__price">Free</p>
-            </div>
-        </div>
-        <div class="card" id="x-4z_u8LcGc">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/watch?v=x-4z_u8LcGc&t=635s" target="_blank"><img
-                        src="https://img.youtube.com/vi/x-4z_u8LcGc/maxresdefault.jpg" alt="Video Flex e Grid"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/watch?v=x-4z_u8LcGc&t=635s" target="_blank">Grid e Flexbox</a>
-            </div>
-            <div class="card__info">
-                <p>39 min</p>
-                <p class="card__price">Free</p>
-            </div>
-        </div>
-        <div class="card" id="BXqUH86F-kA">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_blank"><img
-                        src="https://img.youtube.com/vi/BXqUH86F-kA/maxresdefault.jpg" alt="Curso JavaScript"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
-                    target="_blank">JavaScript</a>
-            </div>
-            <div class="card__info">
-                <p>10 horas</p>
-                <p class="card__price">Free</p>
-            </div>
-        </div>
-        <div class="card" id="VKmPGmFY7H4">
-            <div class="card__image-container">
-                <a href="https://www.youtube.com/watch?v=VKmPGmFY7H4&t=1s" target="_blank"><img
-                        src="https://img.youtube.com/vi/VKmPGmFY7H4/maxresdefault.jpg"
-                        alt="Vídeo historia front end"></a>
-            </div>
-            <div class="card__content">
-                <a href="https://www.youtube.com/watch?v=VKmPGmFY7H4&t=1s" target="_blank">História do Front-End</a>
-            </div>
-            <div class="card__info">
-                <p>48 min</p>
-                <p class="card__price">Free</p>
-            </div>
-        </div>
-    </section>
-
-    <div class="modal-overlay">
-        <div class="modal">
-            <a class="close-modal">
-                <i class="material-icons">close</i>
-            </a>
-
-            <div class="modal-content">
-                <iframe src="" frameborder="0"></iframe>
-            </div>
+        <div class="card__info">
+            <p>1 hora</p>
+            <p class="card__price">Free</p>
         </div>
     </div>
+    <div class="card" id="FRhM6sMOTfg&list">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/watch?v=FRhM6sMOTfg&list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG"
+                target="_blank"><img src="https://andrehost.com.br/wp-content/uploads/2015/02/o-que-e-o-css3.jpg"
+                    alt="Video CSS"></a>
+        </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/watch?v=FRhM6sMOTfg&list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG"
+                target="_blank">CSS3 Completo</a>
+        </div>
+        <div class="card__info">
+            <p>1 hora</p>
+            <p class="card__price">Free</p>
+        </div>
+    </div>
+    <div class="card" id="HN1UjzRSdBk">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/watch?v=HN1UjzRSdBk" target="_blank"><img
+                    src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg" alt="Video CSS"></a>
+        </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/watch?v=HN1UjzRSdBk" target="_blank">CSS Grid layout</a>
+        </div>
+        <div class="card__info">
+            <p>36 min</p>
+            <p class="card__price">Free</p>
+        </div>
+    </div>
+    <div class="card" id="x-4z_u8LcGc">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/watch?v=x-4z_u8LcGc&t=635s" target="_blank"><img
+                    src="https://img.youtube.com/vi/x-4z_u8LcGc/maxresdefault.jpg" alt="Video Flex e Grid"></a>
+        </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/watch?v=x-4z_u8LcGc&t=635s" target="_blank">Grid e Flexbox</a>
+        </div>
+        <div class="card__info">
+            <p>39 min</p>
+            <p class="card__price">Free</p>
+        </div>
+    </div>
+    <div class="card" id="BXqUH86F-kA">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_blank"><img
+                    src="https://img.youtube.com/vi/BXqUH86F-kA/maxresdefault.jpg" alt="Curso JavaScript"></a>
+        </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+                target="_blank">JavaScript</a>
+        </div>
+        <div class="card__info">
+            <p>10 horas</p>
+            <p class="card__price">Free</p>
+        </div>
+    </div>
+    <div class="card" id="VKmPGmFY7H4">
+        <div class="card__image-container">
+            <a href="https://www.youtube.com/watch?v=VKmPGmFY7H4&t=1s" target="_blank"><img
+                    src="https://img.youtube.com/vi/VKmPGmFY7H4/maxresdefault.jpg" alt="Vídeo historia front end"></a>
+        </div>
+        <div class="card__content">
+            <a href="https://www.youtube.com/watch?v=VKmPGmFY7H4&t=1s" target="_blank">História do Front-End</a>
+        </div>
+        <div class="card__info">
+            <p>48 min</p>
+            <p class="card__price">Free</p>
+        </div>
+    </div>
+</section>
 
-    <script src="js/scripts.js"></script>
-</body>
+<div class="modal-overlay">
+    <div class="modal">
+        <a class="close-modal">
+            <i class="material-icons">close</i>
+        </a>
 
-</html>
+        <div class="modal-content">
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+
+<script src="js/scripts.js"></script>
+
+{% endblock %}

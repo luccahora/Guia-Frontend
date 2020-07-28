@@ -14,7 +14,7 @@ nunjuncks.configure("views", {
 
 /* Rotas / */
 server.get("/", function (req, res) {
-    return res.render("index");
+    return res.render("about");
 });
 
 server.get("/cursos", function (req, res) {
